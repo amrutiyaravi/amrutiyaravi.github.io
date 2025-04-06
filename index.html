@@ -1,43 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ravikumar Amrutiya - Resume</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ravikumar Amrutiya - Resume</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Ravikumar Amrutiya</h1>
-        <p>Python, Golang & DevOps Engineer</p>
-        <a href="mailto:job.amrutiyaravi@gmail.com">job.amrutiyaravi@gmail.com</a> |
-        <a href="tel:+919033821337">+91-9033821337</a> |
-        <a href="https://linkedin.com/in/ravikumar-amrutiya" target="_blank">LinkedIn</a> |
-        <a href="https://github.com/amrutiyaravi" target="_blank">GitHub</a>
-    </header>
-    <main>
-        <section>
-            <h2>Professional Summary</h2>
-            <p>10+ years of experience in Python, Golang, and DevOps technologies...</p>
-            <p>Proficient in Cloud Platforms, Web Development, and DevOps Tools.</p>
-        </section>
-        <section>
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Programming Languages: Python (2 & 3), Golang</li>
-                <li>Web Technologies: HTML, CSS, JavaScript</li>
-                <li>DevOps Tools: Docker, Kubernetes, Jenkins, Terraform</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Work Experience</h2>
-            <h3>Staff Engineer | Zendesk</h3>
-            <p>Jan 2025 - Present</p>
-            <p>Full-stack development, Kubernetes-based operators...</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Ravikumar Amrutiya</p>
-    </footer>
+  <!-- Header & Navigation -->
+  <header id="home">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Ravikumar Amrutiya</h1>
+      <p>Python, Golang &amp; DevOps Engineer</p>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- About Section -->
+    <section id="about" class="content-section">
+      <h2>About Me</h2>
+      <p>
+        I am a highly experienced Python, Golang, and DevOps Engineer with over 10 years of experience. My
+        passion lies in building scalable solutions, automating complex workflows, and delivering robust
+        cloud infrastructure. With a background that spans full-stack development, IoT &amp; Embedded Systems,
+        and microservices architecture, I continuously seek new challenges to innovate and optimize real-world
+        systems.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="content-section">
+      <h2>Technical Skills</h2>
+      <div class="skill-grid">
+        <div class="skill-item">
+          <h3>Programming Languages</h3>
+          <p>Python (2 &amp; 3), Golang</p>
+        </div>
+        <div class="skill-item">
+          <h3>Web Technologies</h3>
+          <p>HTML, CSS, JavaScript, JSON</p>
+        </div>
+        <div class="skill-item">
+          <h3>DevOps Tools</h3>
+          <p>Docker, Kubernetes, Jenkins, Terraform, Prometheus</p>
+        </div>
+        <div class="skill-item">
+          <h3>Cloud Platforms</h3>
+          <p>AWS, Azure</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="content-section">
+      <h2>Work Experience</h2>
+      <div class="experience-item">
+        <h3>Staff Engineer | Zendesk</h3>
+        <span>Jan 2025 - Present</span>
+        <p>
+          Full-stack development using Python, Golang, React, Docker, and Kubernetes. Developed and maintained
+          Kubernetes-based operators while managing on-call rotations with PagerDuty.
+        </p>
+      </div>
+      <div class="experience-item">
+        <h3>Staff Engineer | Persistent Systems</h3>
+        <span>Oct 2023 - Jan 2025</span>
+        <p>
+          Delivered full-stack projects as an individual contributor using Python, Golang, React, Docker, and AWS.
+          Oversaw production deployments and ensured system reliability.
+        </p>
+      </div>
+      <div class="experience-item">
+        <h3>Technical Lead | Maplelabs Solution Pvt. Ltd (Xoriant)</h3>
+        <span>Apr 2019 - Oct 2023</span>
+        <p>
+          Led secure cloud native projects, implemented Infrastructure as Code solutions using CDK, and built
+          microservices pipelines. Integrated tools like Jenkins, ArgoCD, and HashiCorp Vault to streamline
+          deployments.
+        </p>
+      </div>
+      <div class="experience-item">
+        <h3>Software Engineer | KPIT Technologies</h3>
+        <span>Feb 2015 - Apr 2019</span>
+        <p>
+          Developed embedded system solutions for rural entertainment products, managed locally hosted web
+          applications, and automated system updates on Linux-based platforms.
+        </p>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="content-section">
+      <h2>Education</h2>
+      <ul class="education-list">
+        <li>
+          <strong>Bachelor of Engineering (Electronics &amp; Communications)</strong><br />
+          Govt. Engineering College, Dahod - Gujarat Technological University (2014) | 74.80 CGPA
+        </li>
+        <li>
+          <strong>Higher Secondary Certificate</strong><br />
+          Jawahar Navodaya Vidyalaya, Porbandar (2010) | 65.40%
+        </li>
+        <li>
+          <strong>Secondary School Certificate</strong><br />
+          Jawahar Navodaya Vidyalaya, Porbandar (2008) | 70%
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:job.amrutiyaravi@gmail.com">job.amrutiyaravi@gmail.com</a></p>
+      <p>Phone: <a href="tel:+919033821337">+91-9033821337</a></p>
+      <p>
+        LinkedIn:
+        <a href="https://linkedin.com/in/ravikumar-amrutiya" target="_blank">linkedin.com/in/ravikumar-amrutiya</a>
+      </p>
+      <p>
+        GitHub:
+        <a href="https://github.com/amrutiyaravi" target="_blank">github.com/amrutiyaravi</a>
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Ravikumar Amrutiya. All rights reserved.</p>
+  </footer>
+
+  <!-- Smooth Scrolling -->
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  </script>
 </body>
 </html>
